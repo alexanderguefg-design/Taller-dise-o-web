@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0a; /* Negro profundo */
+    color: #d1d1d1;
+    font-family: 'Georgia', 'Times New Roman', serif; /* Tipografía gótica / medieval */
+    text-align: center;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: #8b0000; /* Rojo carmesí / sangre */
+    font-size: 38px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    color: #a8a8a8; /* Gris metálico */
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.caja {
+    width: 280px;
+    min-height: 230px;
+    background-color: #141414;
+    border: 2px solid #5a0000; /* Borde forjado rojo oscuro */
+    border-radius: 6px; /* Esquinas casi rectas, aspecto tosco/metálico */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 15px rgba(139, 0, 0, 0.25);
+}
+
+.caja p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+    color: #b3b3b3;
+}
+
+/* Imagen en el segundo cuadro */
+.img-caja {
+    width: 45px;
+    height: auto;
+    margin-top: 12px;
+}
+
+.seccion-resumen {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.seccion-resumen h2 {
+    color: #8b0000;
+    font-size: 26px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 5px;
+}
+
+.seccion-resumen p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #c0c0c0;
+}
+
+/* Imagen final sin borde */
+.img-final {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 4px;
+    border: none; /* Sin borde */
+    display: block;
+    margin: 0 auto;
+}
